@@ -9,6 +9,8 @@ int main()
 	sz2=sz;
 	if(sz<0){
 		sz=-sz;
+	}else if(sz==0){
+		cnt=1;
 	}
 	while (sz>0){
 		sz/=10;
@@ -20,9 +22,9 @@ int main()
 	
 	int chu;
 	chu=pow(10,cnt-1);
-	while(sz2>0){
+	while(chu>0){
 		printf("%d ",sz2/chu);
-		if(sz2/chu>=1 && sz2/chu<=9 && sz2%chu==0)
+	/*	if(sz2/chu>=1 && sz2/chu<=9 && sz2%chu==0)
 		{
 			  while (chu>9){
 	  
@@ -34,15 +36,15 @@ int main()
 				chu/=10;
 	        	printf("0 ");
 	                      }
-		}
+		}*/
 		sz2%=chu;
-		if(sz2<10) {
+		/*if(chu<10) {
 		printf("%d",sz2);	
 			break;
-		}
+		}*/
 		chu/=10;
 	}
-	out:
+//	out:
 	
 	/*
 	123
