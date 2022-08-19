@@ -1,5 +1,5 @@
 #include<stdio.h>
-int sum();
+int sum(int begin,int end);
 
 
 int main(){
@@ -9,17 +9,12 @@ int main(){
 	return 0;
 	
 }
-
-
-
 int sum(int begin,int end){
 	int i,x=0;
-	
 	for(i=begin;i<=end;i++){
-		x+=i;
-		
+		x+=i;	
 	}
-	
-	
-	return x;
+		return x;
 }
+
+
