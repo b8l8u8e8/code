@@ -2,8 +2,10 @@
 
 void zfpx(char a[],int len)
 {
-	int k=0,i=0,i2;
+	int i=0,i2;
 	for(i2=len-1;i2>0;i2--){
+		int k=0;
+		
 			 for(i=1;i<i2+1;i++){
 	     	if(a[k]<a[i]){
 			k=i;
