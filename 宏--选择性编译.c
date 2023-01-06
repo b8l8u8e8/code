@@ -2,8 +2,8 @@
 //#define aaa
 
 int main(){
-
-
+	
+	
 #ifdef aaa
 	printf("1");
 #else	

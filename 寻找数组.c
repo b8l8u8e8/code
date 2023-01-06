@@ -9,7 +9,7 @@ int main(void){
 	
 	return 0;
 }
-//寻找到返回数组下表，未寻找到返回-1
+//瀵绘壘鍒拌繑鍥炴暟缁勪笅琛紝鏈鎵惧埌杩斿洖-1
 int search(int key,int a[],int length)
 {
 int i,ret=-1;

@@ -2,10 +2,10 @@
 int wdg(int n,int a);
 int wdg2(int n);
 int main(){
-	printf("%d",wdg(3,1));
+	printf("%d",wdg(12,1));
 	//printf("%d",wdg2(12));
 }
-//尾递归，优化的递归，只占一次栈区
+//尾递归
 int wdg(int n,int a){
 	if(n==1){
 		return a;
@@ -14,7 +14,6 @@ int wdg(int n,int a){
 	}
 	
 }
-//普通递归，会炸内存
 int wdg2(int n){
 	if(n==1){
 		return 1;

@@ -6,7 +6,7 @@ int main(){
 	int a[]={1,5,8,12,19,25,68,286,296,297};
 
 
-	printf("%d",search(297,a,sizeof(a)/sizeof(a[0])));
+	printf("%d",search(19,a,sizeof(a)/sizeof(a[0])));
 	
 	
 	

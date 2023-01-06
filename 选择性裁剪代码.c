@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define aaa 0
+#define aaa 1
 //1保留 0裁剪
 int main(){
 #if aaa
